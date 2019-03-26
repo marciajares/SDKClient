@@ -1,0 +1,138 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-weight",
+        "title": "Weight",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                [
+                  {
+                    "code": "3141-9",
+                    "display": "weight"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-height",
+        "title": "Height",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                [
+                  {
+                    "code": "8302-2",
+                    "display": "height"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-heart-rate",
+        "title": "Heart Rate",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                [
+                  {
+                    "code": "8867-4",
+                    "display": "heart_rate"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-temperature",
+        "title": "Temperature",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                [
+                  {
+                    "code": "8310-5",
+                    "display": "temperature"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-oxygen-saturation",
+        "title": "Oxygen Saturation",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                [
+                  {
+                    "code": "2710-2",
+                    "display": "oxygen_saturation"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-respiratory-rate",
+        "title": "Respiratory Rate",
+        "compose": {
+          "include": [
+            {
+              "system": "http://loinc.org",
+              "concept": [
+                [
+                  {
+                    "code": "9279-1",
+                    "display": "respiratory_rate"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

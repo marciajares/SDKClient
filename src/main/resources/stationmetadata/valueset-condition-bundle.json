@@ -1,0 +1,165 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-hypothyroidism",
+        "title": "Hypothyroidism",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                [
+                  {
+                    "code": "40930008",
+                    "display": "Hypothyroidism",
+                    "system": "http://snomed.info/sct"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-chest-pain",
+        "title": "Chest pain",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                [
+                  {
+                    "code": "29857009",
+                    "display": "Chest pain",
+                    "system": "http://snomed.info/sct"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-fever",
+        "title": "Fever",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                [
+                  {
+                    "code": "386661006",
+                    "display": "Fever",
+                    "system": "http://snomed.info/sct"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-vomiting",
+        "title": "Vomiting",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                [
+                  {
+                    "code": "422400008",
+                    "display": "Vomiting",
+                    "system": "http://snomed.info/sct"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-hypertension",
+        "title": "Hypertension",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                [
+                  {
+                    "code": "38341003",
+                    "display": "Essential hypertension",
+                    "system": "http://snomed.info/sct"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-asthma",
+        "title": "Asthma",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                [
+                  {
+                    "code": "195967001",
+                    "display": "Asthma"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ValueSet",
+        "id": "vs-osteoarthritis",
+        "title": "Osteoarthritis",
+        "compose": {
+          "include": [
+            {
+              "system": "http://snomed.info/sct",
+              "concept": [
+                [
+                  {
+                    "code": "396275006",
+                    "display": "Osteoarthritis"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
